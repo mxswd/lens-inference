@@ -1,5 +1,11 @@
 {-# LANGUAGE ConstraintKinds #-}
-module Inu where
+{-# LANGUAGE TemplateHaskell #-}
+{-# LANGUAGE GeneralizedNewtypeDeriving #-}
+{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE MultiParamTypeClasses #-}
+{-# LANGUAGE FlexibleContexts #-}
+
+module Main where
 
 import Control.Lens
 import Control.Lens.Inference
